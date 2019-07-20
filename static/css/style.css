@@ -1,0 +1,120 @@
+
+}
+.background1{
+    background-position: center;
+    
+}
+  .backgroundImage{
+        background: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
+
+
+footer {
+  display: block;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+.banner {
+  position: relative;
+  height: 550px;
+  padding: 20px;
+  margin: 100;
+  background: white;
+  background-image: url("bookcase-books-bookshelves-159711.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.banner h1 {
+  margin:50px;
+    font-size: 100px;
+    color: white
+}
+
+.map {
+    height: 593px;
+    width: 959px;
+    margin: 10px;
+    padding: 10px; 
+    background-image: url("2018_education_strikes_results_by_state.png");
+    background-size: cover;
+}
+.chairs {
+    position: relative;
+    height: 550px;
+    padding: 20px;
+    margin: 100;
+    background: white;
+    background-image: url("auditorium-chairs-class-256395.jpg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover; 
+}
+
+.chairs h1 {
+    margin: 50px; 
+    font-size: 100px; 
+    color: white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: center;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.iframe {
+    display: block
+}
